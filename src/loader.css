@@ -45,3 +45,18 @@
       transform: rotate(360deg);
     }
 }
+
+@media (min-width:320px) and (max-width:768px){
+    .loader,
+    .loader:after {
+        border-radius: 50%;
+        width: 6em;
+        height: 6em;
+    }
+    .loader {
+        border-top: 0.8em solid #c5c5c5;
+        border-right: 0.8em solid #c5c5c5;
+        border-bottom: 0.8em solid #c5c5c5;
+        border-left: 0.8em solid white;
+    }
+}
