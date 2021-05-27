@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h2{
+  font-weight: normal;
+  letter-spacing: 0.2px;
+}
+/* herader component styles*/
+.header{
+  text-align: center;
+  position: fixed;
+  background-color: firebrick;
+  color: white;
+  width: 100%;
+  height: fit-content;
+  z-index: 101;
+  overflow: visible;
+}
+.header h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header h2 svg{
+  color: darkorange;
+}
+/* location marker component styles */
+
+.marker svg{
+  color: red
+}
